@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSの記述</title>
+    <style type="text/css">
+    h1{
+        color:red;
+    }
+    strong{
+        font-size: 24px;
+    }
+    em{
+        color: red;
+    }
+    .red{
+        color:red;
+    }
+    .mincho{
+        font-family: serif;
+    }
+    .red24px{
+        color: red;
+        font-size: 24px;
+    }
+    .px24{
+        font-size: 24px;
+    }
+    .center{
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>CSSの記述1</h1>
+
+    <h1>CSSの記述2</h1>
+
+    <h2>文字の表現</h2>
+
+    <h3>文字を強調（Strong)</h3>
+    <p>文字を<strong>強調</strong>して表示します（太字になります）。</p>
+
+    <h3>文字を強調（em）</h3>
+    <p>文字を<em>少し強調</em>して表示します（車体になります）。</p>
+
+    <h3>文字を強調（StrongをCSSで設定)</h3>
+    <p>文字を<strong>24ピクセルの大きさ</strong>で表示します。</p>
+
+    <h3>文字を強調（emをCSSで設定）</h3>
+    <p>文字を<em>赤い色</em>で表示します。</p>
+
+    <h3>classの指定</h3>
+    <p>文字を<span class="red">赤い色</span>で表示します。</p>
+
+    <h3>書体の設定</h3>
+    <p>ウェブで使われる文字は、おもにゴシック体と<span class="mincho">明朝体</span>です。</p>
+
+    <h3>定義したスタイルの適用</h3>
+    <p>文字を<span class="red">赤い色</span>で表示します。</p>
+
+    <h3>複数のスタイルの適用</h3>
+    <p>文字を<span class="red24px">24ピクセルの赤</span>で表示します。</p>
+
+    <h3>複数のスタイルの適用（複数のclass）</h3>
+    <p>文字を<span class="red px24">24ピクセルの赤</span>で表示します。</p>
+
+    <h3>中央揃え</h3>
+    <p class="center">文字を中央に表示します。</p>
+
+</body>
+
+</html>
